@@ -60,7 +60,8 @@ class API {
       "part": "snippet",
       "maxResults": "${this.maxResults}",
       "key": "${this.key}",
-      "type": "${this.type}"
+      "type": "${this.type}",
+      "videoCategoryId": "10"
     };
     return options;
   }
